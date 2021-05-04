@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home page</title>
+    </head>
+    <body>
+        <h1>Home Page</h1>
+        <img src="{{ url_for('static', filename='cat.jpg') }}" alt="Cat"><br>
+        <h2>Subpages:</h2>
+        <ol>
+			<li><a href="{{ url_for('static', filename='gallery.html') }}">Gallery</a></li>
+			<li><a href="{{ url_for('static', filename='aboutme.html') }}">About me</a></li>
+			<li><a href="{{ url_for('static', filename='contact.html') }}">Contact</a></li>
+		</ol>
+    </body>
+</html>
