@@ -10,9 +10,9 @@
         <img src="{{ url_for('static', filename='cat.jpg') }}" alt="Cat"><br>
         <h2>Subpages:</h2>
         <ol>
-			<li><a href="{{ url_for('static', filename='gallery.html') }}">Gallery</a></li>
-			<li><a href="{{ url_for('static', filename='aboutme.html') }}">About me</a></li>
-			<li><a href="{{ url_for('static', filename='contact.html') }}">Contact</a></li>
+			<li><a href="{{ url_for('gallery') }}">Gallery</a></li>
+			<li><a href="{{ url_for('about') }}">About me</a></li>
+			<li><a href="{{ url_for('contact') }}">Contact</a></li>
 		</ol>
     </body>
 </html>
