@@ -21,6 +21,10 @@ def contact():
 def gallery():
     return render_template('gallery.html')
 
+@app.route('/top1')
+def gallery():
+    return render_template('top1.html')
+
 #Errors
 @app.errorhandler(404)
 def not_found_error(error):
