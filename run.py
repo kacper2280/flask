@@ -22,7 +22,7 @@ def gallery():
     return render_template('gallery.html')
 
 @app.route('/top1')
-def gallery():
+def top1():
     return render_template('top1.html')
 
 #Errors
